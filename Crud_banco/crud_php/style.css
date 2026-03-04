@@ -1,0 +1,65 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fondo con color suave */
+body {
+    background: #e0e5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background: #e0e5ec;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
+    text-align: center;
+}
+
+/* Título */
+h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Lista de archivos */
+.file-list {
+    list-style: none;
+    padding: 0;
+}
+
+.file-list li {
+    margin: 10px 0;
+    padding: 12px;
+    background: #e0e5ec;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efecto al pasar el mouse */
+.file-list li:hover {
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+    transform: scale(1.05);
+}
+
+/* Enlaces */
+.file-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.file-list a:hover {
+    color: #007bff;
+}
