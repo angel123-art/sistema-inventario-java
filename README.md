@@ -1,18 +1,19 @@
-# sistema-inventario-java
-# Sistema de Inventario
+# sistema MVC
+# BANCO
 
-Aplicación CRUD desarrollada en C# conectada a SQL Server.
+Aplicación MVC desarrollada en PHP conectada a MySQL Server.
 
 ## Funcionalidades
-- Registro de productos
-- Listado de productos
+- Registro de clientes
+- Listado de clientes
 - Actualización de datos
 - Eliminación de registros
 
 ## Tecnologías
-C#
-SQL Server
-ADO.NET
+#PHP
+#MySQL
+#HTML
+#CSS
 
 ## Autor
 Angel - SENATI
